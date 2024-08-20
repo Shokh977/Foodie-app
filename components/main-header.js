@@ -8,7 +8,6 @@ import MainHeaderBackground from "./main-header-background";
 export default function MainHeader() {
   return (
     <>
-      {" "}
       <MainHeaderBackground />
       <header className={classes.header}>
         <Link className={classes.logo} href="/">
